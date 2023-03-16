@@ -1,0 +1,25 @@
+@charset "UTF-8"; 
+
+div.bloco{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 200px;
+    margin: 20px;
+    background-image: url("../imagens-cap19/wallpaper003.jpg");
+}
+
+div#quadrado1{
+    background-position: center center;
+}
+
+div#quadrado2{
+    background-position: top left;
+}
+
+div#quadrado3{
+    background-position: bottom right;
+}
+
+div#quadrado4{
+    background-position: bottom left;
+}
