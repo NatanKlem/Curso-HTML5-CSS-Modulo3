@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    height: 97vh;
+    background-color: black;
+    background-image: url("../imagens-cap19/wallpaper002.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+main{
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 10px ;
+}
