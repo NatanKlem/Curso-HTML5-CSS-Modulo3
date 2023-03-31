@@ -3,12 +3,23 @@
 table{
     border-collapse: collapse;
     width: 500px;
-    text-align: center;
+}
+
+caption{
+    background-color: rgb(212, 202, 202);
+    padding: 8px;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 thead, tfoot{
     background-color: grey;
     color: white;
+}
+
+tbody > tr:nth-child(2n){
+    background-color: lightgray;
 }
 
 td, th{
