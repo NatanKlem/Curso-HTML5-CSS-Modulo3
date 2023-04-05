@@ -3,6 +3,7 @@
 table{
     border-collapse: collapse;
     width: 500px;
+    position: relative;
 }
 
 caption{
@@ -13,10 +14,16 @@ caption{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+thead > tr > th{ 
+    position: sticky;
+    top: -1px;
+    background-color: grey;
+}
+
 thead, tfoot{
     background-color: grey;
     color: white;
-}
+} 
 
 tbody > tr:nth-child(2n){
     background-color: lightgray;
